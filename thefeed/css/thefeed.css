@@ -1,0 +1,405 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8">
+    
+    <title> </title>
+</head>
+
+h1{
+     
+}
+
+h1 a{
+    text-decoration: none;
+    color: #B5338A;
+    font-family: "Cormorant Infant", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 35px;
+    padding: 15px 30px 30px 30px;
+    border-top: 5px solid #B5338A;
+    border-left: 3px solid #B5338A;
+    border-bottom: 14px solid #B5338A;
+    border-right: 14px solid #B5338A;
+
+}
+
+body{
+    background-color: pink;
+    background-size: cover;  
+    background-repeat: no-repeat;
+}
+
+article{
+    margin-top: 200px;
+    margin-left: 48%;
+    margin-right: 7%;
+    padding: 15px 30px 30px 30px;
+    border-top: 5px solid #B5338A;
+    border-left: 6px solid #B5338A;
+    border-bottom: 14px solid #B5338A;
+    border-right: 14px solid #B5338A;
+    text-align: center;
+
+}
+
+article.leftside {
+    margin-top: 200px;
+    margin-left: 9%;
+    margin-right: 45%;
+    padding: 15px 30px 30px 30px;
+    border-top: 5px solid #B5338A;
+    border-left: 6px solid #B5338A;
+    border-bottom: 14px solid #B5338A;
+    border-right: 14px solid #B5338A;
+    text-align: center;
+
+}
+
+
+body h3.chapter {
+    font-family: "Cormorant Infant", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #B5338A;
+    font-size: 32px;
+}
+
+body h3.name {
+    font-family: "Cormorant Infant", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #B5338A;
+    font-size: 30px;
+}
+
+p{
+    font-family: "Cormorant Infant", serif;
+    font-weight: 500;
+    font-style: italic;
+    color: #B5338A;
+    font-size: 19px;
+    text-align:left;
+    line-height: 1.6;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+}
+
+#image-container::after {
+    content:'';
+    position: absolute;
+    z-index:-1;
+    bottom:-433px;
+    left:48.2%;
+    width:44%;
+    height:950px;
+    background: linear-gradient(#FDE9E2,#FDD5D2);
+}
+
+#sofa{
+    position: relative;
+    bottom: 17900px;
+}
+
+
+#image-container2::after {
+    content:'';
+    position: absolute;
+    z-index:-1;
+    bottom:-1565px;
+    left:9.9%;
+    width:44%;
+    height:920px;
+    background: linear-gradient(#FDD5D2,#ffc9d8);
+}
+
+#light{
+    position: relative;
+    bottom: 17500px;
+    left: 46%;
+}
+
+#image-container3::after {
+    content:'';
+    position: absolute;
+    z-index:-1;
+    bottom:-2702px;
+    left:48.2%;
+    width:44%;
+    height:930px;
+    background: linear-gradient(#ffc9d8,#fcb3cb);
+}
+
+#tea{
+    transform: rotate(-5deg);
+    position: relative;
+    bottom: 17370px;
+    left:9.6%;
+}
+
+#image-container4::after {
+    content:'';
+    position: absolute;
+    z-index:-1;
+    bottom:-3860px;
+    left:9.7%;
+    width:45%;
+    height:956px;
+    background: linear-gradient(#fcb3cb,#ffb6dd);
+}
+
+#lamp{
+    transform: rotate(5deg);
+    position: relative;
+    bottom: 16700px;
+    left: 53%;
+}
+
+#image-container5::after {
+    content:'';
+    position: absolute;
+    z-index:-1;
+    bottom:-4992px;
+    left:48.2%;
+    width:44%;
+    height:925px;
+    background: linear-gradient(#ffb6dd,#f69cc8);
+}
+
+#chair{
+    position: relative;
+    bottom: 16200px;
+    left: -6%;
+}
+
+#image-container6::after {
+    content:'';
+    position: absolute;
+    z-index:-1;
+    bottom:-6137px;
+    left:9.5%;
+    width:45%;
+    height:942px;
+    background: linear-gradient(#f69cc8,#ffb6dd); 
+}
+
+#books{
+    transform: rotate(5deg);
+    position: relative;
+    bottom: 15450px;
+    left: 59%;
+}
+
+#image-container7::after {
+    content:'';
+    position: absolute;
+    z-index:-1;
+    bottom:-7310px;
+    left:48.2%;
+    width:44%;
+    height:955px;
+    background: linear-gradient(#ffb6dd,#fcb3cb);
+}
+
+#light2{
+    position: relative;
+    bottom: 15140px;
+    left: -6%;
+}
+
+#image-container8::after {
+    content:'';
+    position: absolute;
+    z-index:-1;
+    bottom:-8396px;
+    left:9.5%;
+    width:45%;
+    height:882px;
+    background: linear-gradient(#fcb3cb,#ffc9d8);
+}
+
+#chair2{
+    position: relative;
+    bottom: 14710px;
+    left: 50%;
+}
+
+#image-container9::after {
+    content:'';
+    position: absolute;
+    z-index:-1;
+    bottom:-9529px;
+    left:48.2%;
+    width:44%;
+    height:918px;
+    background: linear-gradient(#ffc9d8,#FDD5D2);
+}
+
+#lamp2{
+    transform: rotate(-5deg);
+    position: relative;
+    bottom: 14400px;
+    left: 5%;
+}
+
+#image-container10::after {
+    content:'';
+    position: absolute;
+    z-index:-1;
+    bottom:-10630px;
+    left:9.5%;
+    width:45%;
+    height:892px;
+    background: linear-gradient(#FDD5D2,#FDE9E2);
+}
+
+#tea2{
+    transform: rotate(5deg);
+    position: relative;
+    bottom: 14400px;
+    left: 5%;
+}
+
+
+#image-container11::after {
+    content:'';
+    position: absolute;
+    z-index:-1;
+    bottom:-11758px;
+    left:48.2%;
+    width:44%;
+    height:920px;
+    background: linear-gradient(#FDE9E2,#FDD5D2);
+}
+
+#light3{
+    position: relative;
+    bottom: 14100px;
+    left: 55%;
+}
+
+#books2{
+    position: relative;
+    bottom: 14490px;
+    left: 59%;
+}
+
+#image-container12::after {
+    content:'';
+    position: absolute;
+    z-index:-1;
+    bottom:-12912px;
+    left:9.5%;
+    width:45%;
+    height:945px;
+    background: linear-gradient(#FDD5D2,#ffc9d8);
+}
+
+#sofa2{
+    position: relative;
+    bottom: 14300px;
+    left: -3%;
+}
+
+#image-container13::after {
+    content:'';
+    position: absolute;
+    z-index:-1;
+    bottom:-14070px;
+    left:48.2%;
+    width:44%;
+    height:942px;
+    background: linear-gradient(#ffc9d8,#fcb3cb);
+}
+
+#tea3{
+    position: relative;
+    bottom: 13800px;
+    left: 57%;
+}
+
+#image-container14::after {
+    content:'';
+    position: absolute;
+    z-index:-1;
+    bottom:-15210px;
+    left:9.5%;
+    width:45%;
+    height:928px;
+    background: linear-gradient(#fcb3cb,#ffb6dd);
+}
+
+#chair3{
+    position: relative;
+    bottom: 12800px;
+    left: -3%;
+    transform: rotateY(180deg);
+}
+
+#lamp2{
+    position: relative;
+    bottom: 13150px;
+    left: 27%;
+    transform: rotateY(180deg);
+}
+
+#image-container15::after {
+    content:'';
+    position: absolute;
+    z-index:-1;
+    bottom:-16330px;
+    left:48.2%;
+    width:44%;
+    height:920px;
+    background: linear-gradient(#ffb6dd,#f69cc8);
+}
+
+#lamp3{
+    position: relative;
+    bottom: 12900px;
+    left: 45%;
+    transform: rotateY(180deg);
+}
+
+#books3{
+    position: relative;
+    bottom: 12000px;
+    left: 5%;
+    transform: rotateY(180deg)
+                rotate(-5deg);
+}
+
+#image-container16::after {
+    content:'';
+    position: absolute;
+    z-index:-1;
+    bottom:-17430px;
+    left:9.5%;
+    width:45%;
+    height:890px;
+    background: linear-gradient(#f69cc8,#ffb6dd);
+}
+
+#light4{
+    position: relative;
+    bottom: 11800px;
+    left: 56%;  
+}
+
+#sofa3{
+    position: relative;
+    bottom: 12500px;
+    left: 45%;
+    transform: rotateY(180deg)
+                
+}
+
+
+
+</body>
+                   
+</html>
